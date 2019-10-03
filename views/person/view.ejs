@@ -1,0 +1,10 @@
+<div>
+    <tr>
+        <td><%= person.name %></td>
+        <td><%= person.age %></td>
+    </tr>
+</div>
+<!--HTML form -->
+<form method="post" action="/person/delete/<%= person.id%>"> 
+    <button type="submit" class ="btn btn-danger">DELETE</button>
+</form>
